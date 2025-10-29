@@ -1,0 +1,72 @@
+MoneyPrinter G — Header Redesign Specifications (A/B/C)
+Last updated: 2025-10-29
+
+Overview
+- Goal: Modern, responsive header that improves navigation clarity, branding prominence, and utility access while keeping existing functionality intact.
+- Deliverables: Three fully functional prototype variants implemented in the site source.
+  - Variant A: Minimal horizontal bar (index.html)
+  - Variant B: Centered stacked layout with tagline (header-b.html)
+  - Variant C: Brand-left layout with mega-menu (header-c.html)
+
+Design Principles
+- Consistency: Adhere strictly to existing color palette and typography.
+- Hierarchy: Brand → Primary nav → Utilities (search, CTA, language).
+- Accessibility: Keyboard navigable; visible focus states; proper aria labels.
+- Performance: Lightweight animations; no layout thrash; avoid blocking scripts.
+
+Branding
+- Logo: High-resolution image with responsive scaling in `.brand-logo`.
+- Name: `Inter` font, 600–800 weight, legible sizes by breakpoint.
+- Optional tagline: Shown in Variant B under brand.
+
+Navigation
+- Clear labels: Home, Music, Events, Media, About, Subscribe.
+- Active state: Applied via JS based on hash; visible indicator under link.
+- Mega-menu (Variant C): Displays under Music with grouped links; hover/focus shows menu; ESC or blur closes.
+
+Utilities
+- Search: Integrated field with predictive suggestions panel; keyboard and mouse friendly.
+- CTA: Primary action “Listen”; secondary “Subscribe” styled as outline.
+- Language: Dropdown `EN/ES` placeholder; designed for future i18n.
+
+Responsive Breakpoints
+- Mobile (≤640px): Collapsed nav behind menu toggle; utilities moved into mobile panel.
+- Tablet (641–1024px): Horizontal nav; utilities right-aligned; balanced spacing.
+- Desktop (≥1025px): Full layout; mega-menu available (Variant C); hover interactions enabled.
+
+Spacing & Rhythm
+- Header padding: 12–20px depending on breakpoint.
+- Nav item spacing: 10–14px; utilities gap: 10–12px.
+- Use consistent 4px baseline grid for micro-spacing.
+
+Interaction & Motion
+- Hover/focus: Subtle color transition (160ms ease) and underline indicator.
+- Menu toggle: Morph icon with rotate/scale; prevents scroll when mobile menu open.
+- Shrink-on-scroll (Variant B): Header height compresses slightly after 64px scroll.
+- Mega-menu (Variant C): Delayed open/close (80ms) to avoid flicker.
+
+Accessibility
+- `aria-label`s on nav/search/menu; `role=listbox/menu` where appropriate.
+- Focus management: Trap within open mobile menu; ensure ESC closes mega-menu.
+- Contrast: Maintain WCAG AA for text and indicators against header background.
+
+Implementation Notes
+- CSS: See `styles.css` header section and variants `.variant-b` / `.variant-c`.
+- JS: See `script.js` header module for active states, search, language, mega-menu.
+- HTML: Variant A `index.html`, Variant B `header-b.html`, Variant C `header-c.html`.
+
+Prototype Links (local)
+- Variant A: `index.html`
+- Variant B: `header-b.html`
+- Variant C: `header-c.html`
+
+Testing Checklist
+- Keyboard: Tab through header; ENTER on links; ESC closes menus.
+- Mobile: Open/close menu; scroll behavior; touch targets ≥40px.
+- Search: Type partial keywords; suggestions appear; arrow keys navigate.
+- Language: Dropdown focus-able; selection retained per session (placeholder implementation).
+
+Future Enhancements
+- Real i18n with persisted language setting.
+- Server-backed search with weighted scoring.
+- Analytics events on menu interactions and CTA clicks.

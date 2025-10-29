@@ -1,0 +1,228 @@
+{
+  "run_at": "2025-10-27T02:23:31.417678Z",
+  "target": {
+    "width": 500,
+    "height": 500,
+    "maintain_aspect": true,
+    "output_format": "preserve",
+    "jpeg_quality": 92,
+    "png_compress_level": 6,
+    "convert_to_srgb": true
+  },
+  "results": [
+    {
+      "file": "24_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 255704
+    },
+    {
+      "file": "2_U_4_PrinterFest.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 37202
+    },
+    {
+      "file": "Addy_Bruh_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 410253
+    },
+    {
+      "file": "Andrew_Tate_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 121837
+    },
+    {
+      "file": "Ben_10_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 288723
+    },
+    {
+      "file": "Bond_A_Hunnit_Freestyle_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 309915
+    },
+    {
+      "file": "Gansta_w_feeling_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 224165
+    },
+    {
+      "file": "Hellen_keller_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 343354
+    },
+    {
+      "file": "hqdefault.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 213256
+    },
+    {
+      "file": "Keep_It_G_mpg.jpeg",
+      "original_ext": ".jpeg",
+      "format_saved": "JPEG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 99659
+    },
+    {
+      "file": "Never_Lose_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 348410
+    },
+    {
+      "file": "No_Diddy_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 383644
+    },
+    {
+      "file": "Onnamanapeea_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 332316
+    },
+    {
+      "file": "Run_Forest_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 305842
+    },
+    {
+      "file": "Scottie_Pippen_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 335465
+    },
+    {
+      "file": "Still_The_Same_Freestyle_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 407960
+    },
+    {
+      "file": "Talk_My_Shit_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 267470
+    },
+    {
+      "file": "Wow_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 349377
+    },
+    {
+      "file": "Y_U_mad_mpg.png",
+      "original_ext": ".png",
+      "format_saved": "PNG",
+      "width": 500,
+      "height": 500,
+      "icc_profile_embedded": false,
+      "validation_passed": true,
+      "issues": [],
+      "size_bytes": 69319
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0
+  }
+}

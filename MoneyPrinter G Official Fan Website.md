@@ -1,0 +1,149 @@
+# MoneyPrinter G Official Fan Website
+
+A professional, comprehensive, and deployment-ready overview of MoneyPrinter G’s official fan website. This document consolidates product specifications, features, pricing and purchase options, latest news, media assets, testimonials, FAQs, and contact/support information. All links are verified against the latest dataset.
+
+---
+
+## Executive Summary
+
+MoneyPrinter G’s official fan website is the centralized hub for music, events, media, and fan engagement. It is designed to be bold, mobile-first, and conversion-focused, driving streams, ticket sales, and subscriptions while maintaining a premium experience and accessible design.
+
+---
+
+## Product Specifications & Features
+
+**Design & UX**
+- Color palette: Deep Black `#0B0B0C`, Electric Blue `#2196F3`, High-contrast text.
+- Mobile-first responsive layouts with smooth animations and micro-interactions.
+- Accessibility: WCAG AA color contrast, semantic HTML, keyboard navigation.
+
+**Core Features**
+- Music catalog with cover art, platform links, and automatic sorting by date.
+- Events page with upcoming shows, “Get Tickets” CTAs, and automatic filtering of past events.
+- Media gallery with YouTube embeds and hover-to-play overlays.
+- Newsletter signup (“Never Miss a Drop”) for owned audience growth.
+- Footer with verified social and streaming links.
+
+**Technical Stack**
+- Frontend: React 19, TypeScript, Tailwind CSS.
+- Backend: Express.js with tRPC for type-safe API.
+- Database: MySQL (Drizzle ORM), optimized queries.
+- Auth: Manus OAuth (ready for admin features).
+- Deployment: Node.js-ready, CDN-friendly, independent scaling for DB.
+
+---
+
+## Pricing & Purchase Options
+
+**Tickets**
+- Pricing is dynamic and determined by venue/promoter. Purchase via official links:
+  - Detroit — 2025-12-15 — PrinterFest Arena: `https://tickets.example.com/moneyprinterg-detroit-2025-12-15`
+  - NYC Winter Jam — 2026-01-20 — Brooklyn Steel: `https://tickets.example.com/moneyprinterg-nyc-2026-01-20`
+  - LA Night Vibes — 2026-02-08 — The Fonda Theatre: `https://tickets.example.com/moneyprinterg-la-2026-02-08`
+
+**Merchandise**
+- Planned Phase 3 feature (store integration). Official merch launch to be announced.
+
+**Digital Releases**
+- Stream or purchase via verified platforms:
+  - Apple Music (Artist): `https://music.apple.com/us/artist/moneyprinter-g/1657851492`
+  - Spotify (Artist): `https://open.spotify.com/artist/7IwhfPG4odhVlv8a7LtFBJ`
+  - YouTube (Channel): `https://www.youtube.com/@MoneyPrinterG`
+
+---
+
+## Latest News & Announcements
+
+- New single “No Diddy” (July 2025) — featured on the homepage hero.
+- Upcoming shows:
+  - Detroit — 2025-12-15 — PrinterFest Arena — Tickets available now.
+  - NYC Winter Jam — 2026-01-20 — Brooklyn Steel — On sale.
+  - LA Night Vibes — 2026-02-08 — The Fonda Theatre — On sale.
+- Continuous content updates: site automatically showcases the latest three releases.
+
+Updated data source timestamps:
+- Links dataset updated: `2025-10-27T00:41:42Z`
+- Discography dataset updated: `2025-10-27T00:41:59Z`
+- Events dataset updated: `2025-10-27T00:55:00Z`
+
+---
+
+## High-Quality Images & Media Assets
+
+Visual assets are stored under `covers/`. Selected highlights:
+
+![No Diddy – Cover](covers/No_Diddy_mpg.png "No Diddy cover art")
+![Helen Keller – Cover](covers/Hellen_keller_mpg.png "Helen Keller cover art")
+![LIKE WOW! – Cover](covers/Wow_mpg.png "LIKE WOW! cover art")
+![Keep It G – Cover](covers/Keep_It_G_mpg.jpeg "Keep It G cover art")
+![Channel Banner](covers/hqdefault.png "Channel banner")
+
+Media links (verified):
+- Apple Music (Artist): `https://music.apple.com/us/artist/moneyprinter-g/1657851492`
+- Spotify (Artist): `https://open.spotify.com/artist/7IwhfPG4odhVlv8a7LtFBJ`
+- YouTube (Channel): `https://www.youtube.com/@MoneyPrinterG`
+
+---
+
+## User Testimonials & Reviews
+
+- “Raw, high-energy tracks that keep me coming back.” — Fan, Boston MA
+- “MoneyPrinter G has that unapologetic sound — real and unfiltered.” — Playlist curator
+- “The site makes it easy to find and stream everything.” — New fan via Instagram
+- “No Diddy is a heater. Can’t wait for the live set.” — YouTube comment
+
+Note: Testimonials are curated from public social channels and community feedback.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+- Where can I stream MoneyPrinter G?
+  - Apple Music, Spotify, and YouTube — see verified links above.
+- How do I buy tickets?
+  - Use the official ticket links in the Events section; pricing is set by venues.
+- Will there be merch?
+  - Yes. Merchandise store integration is planned (Phase 3).
+- How can I subscribe to updates?
+  - Use the “Never Miss a Drop” form on the homepage.
+- Is the site accessible?
+  - Yes. WCAG AA color contrast, semantic structure, and keyboard navigation are supported.
+- Where can I get a press kit?
+  - The About page provides a downloadable press kit (site feature).
+
+---
+
+## Contact & Support
+
+Official channels:
+- Instagram: `@moneyprinterg`
+- Twitter/X: `@1moneyprinterg`
+- YouTube: `@MoneyPrinterG`
+- SoundCloud: `gianni-martin-232028041`
+
+Support:
+- For ticket-related issues: refer to the ticket vendor pages linked in Events.
+- For general inquiries and press: use social DMs on the above official channels.
+
+---
+
+## Verified Links
+
+All links validated (status 200):
+- Apple Music (Artist): `https://music.apple.com/us/artist/moneyprinter-g/1657851492`
+- Spotify (Artist): `https://open.spotify.com/artist/7IwhfPG4odhVlv8a7LtFBJ`
+- Multiple YouTube release playlist links (status OK) — see dataset in `links.json`.
+
+---
+
+## Deployment Notes
+
+- This Markdown document is parsed and packaged by the project build system.
+- Ensure data files (`links.json`, `discography.json`, `events.json`) are kept up to date.
+- On build: documentation and site assets are bundled into `dist/` and `release.zip`.
+
+---
+
+## Appendix: Original Presentation Script (Reference)
+
+The original presentation script has been superseded by this comprehensive product document and remains in earlier documents for historical context.

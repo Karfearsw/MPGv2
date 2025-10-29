@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2025-10-27T00:55:00Z",
+  "events": [
+    {
+      "title": "Live in Detroit",
+      "date": "2025-12-15",
+      "city": "Detroit, MI",
+      "venue": "PrinterFest Arena",
+      "ticketsUrl": "https://tickets.example.com/moneyprinterg-detroit-2025-12-15"
+    },
+    {
+      "title": "NYC Winter Jam",
+      "date": "2026-01-20",
+      "city": "New York, NY",
+      "venue": "Brooklyn Steel",
+      "ticketsUrl": "https://tickets.example.com/moneyprinterg-nyc-2026-01-20"
+    },
+    {
+      "title": "LA Night Vibes",
+      "date": "2026-02-08",
+      "city": "Los Angeles, CA",
+      "venue": "The Fonda Theatre",
+      "ticketsUrl": "https://tickets.example.com/moneyprinterg-la-2026-02-08"
+    }
+  ]
+}

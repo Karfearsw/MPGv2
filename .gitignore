@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Dist
+dist/
+release.zip
+BUILD_REPORT.md
+
+# Node
+node_modules/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
