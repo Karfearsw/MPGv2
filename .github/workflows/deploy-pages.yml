@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       # If you prefer building to dist/site, run your build here and upload that folder instead.
       # For now, publish the site directly from the Moneyprinterg folder.
       - name: Upload static site
